@@ -1,6 +1,7 @@
 # - Try to find JsonCpp
 # Once done this will define
 #  JSONCPP_FOUND - System has JsonCpp
+#  JSONCPP_VERSION - JsonCpp version
 #  JSONCPP_DEFINITIONS - Compiler switches required for using JsonCpp
 #  JSONCPP_INCLUDE_DIRS - The JsonCpp include directories
 #  JSONCPP_LIBRARIES - The libraries needed to use JsonCpp
