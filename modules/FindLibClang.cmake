@@ -11,7 +11,7 @@ find_program(LLVM_CONFIG
     PATHS ENV LLVM_PATH)
 
 if(NOT LLVM_CONFIG)
-    message(FATAL_ERROR "Can't found program: llvm-config")
+    message(FATAL_ERROR "Cannot find program: llvm-config")
 endif()
 
 execute_process(
